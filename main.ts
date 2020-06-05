@@ -39,19 +39,11 @@ input.onButtonPressed(Button.B, function () {
     basic.showNumber(p2score)
     basic.pause(500)
 })
-let game_started = false
 let p2score = 0
 let p1score = 0
+let game_started = false
 let rounds = 0
 // Please select the amount of rounds you would like to play. There will be no breaks, so keep alert!
 // You can see the scores at the end of the game. If you wish to see them again, press A (Player 1) or B (Player 2) once they've finished scrolling across the screen.
 //         
 rounds = 5
-for (let index = 0; index < rounds; index++) {
-    Play()
-}
-basic.showString("P1-")
-basic.showNumber(p1score)
-basic.pause(500)
-basic.showString("P2-")
-basic.showNumber(p2score)
