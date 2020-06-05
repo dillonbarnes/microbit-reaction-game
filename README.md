@@ -9,7 +9,7 @@ I hope you like it, if you have any suggestions or issues, you can email dillonb
 To play this game you will need four crocodile clips, some foil and some cardboard, as well as your micro:bit of course!
 Use this page and the image to help set up, just use this improved program instead!
 [https://microbit.org/projects/make-it-code-it/reaction-game/](https://microbit.org/projects/make-it-code-it/reaction-game/)
-[Helpful image](https://github.com/dillonbarnes/microbit-reaction-game/2020-06-05 15.56.25.mpo)
+[Helpful image](https://github.com/dillonbarnes/microbit-reaction-game/workflows/2020-06-05 15.56.25.mpo)
 Enjoy!
 
 ## Edit this project ![Build status badge](https://github.com/dillonbarnes/microbit-reaction-game/workflows/MakeCode/badge.svg)
