@@ -6,11 +6,13 @@ function Play () {
     while (game_started) {
         if (input.pinIsPressed(TouchPin.P1)) {
             basic.showString("1")
+            music.playTone(220, music.beat(BeatFraction.Whole))
             game_started = false
             p1score += 1
         } else {
             if (input.pinIsPressed(TouchPin.P2)) {
                 basic.showString("2")
+                music.playTone(880, music.beat(BeatFraction.Whole))
                 game_started = false
                 p2score += 1
             }
