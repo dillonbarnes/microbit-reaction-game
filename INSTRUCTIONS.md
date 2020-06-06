@@ -29,10 +29,11 @@ This can be done later, but I recommend doing it now, so that you don't have a l
 
 1. Turn on the micro:bit. (Many people wonder why projects aren't working, because they forget to turn their micro:bit on!)
 2. Give your partner the second controller and make sure you can both see the screen on the micro:bit.
-3. When you're ready to start press A and B at the same time.
-4. Hit both of your foil pieces when the heart appears before the other player does. If a 1 appears on the screen, P1 won the round. If it's a 2, it's P2.
-5. To see your scores again once the game has finished, press A to view P1's or B to see P2's.
-6. Want a rematch? Press A and B together to restart. Remember that scores ARE NOT reset. To reset scores, press the reset button on the back of the micro:bit.
+3. Select the amount of rounds you want to play. use A to go up by one and B to go down by one.
+4. When you're ready to start press A and B at the same time.
+5. Hit both of your foil pieces when the heart appears before the other player does. If a 1 appears on the screen, P1 won the round. If it's a 2, it's P2.
+6. To see your scores again once the game has finished, press A to view P1's or B to see P2's.
+7. Want a rematch? Press A and B together to restart. Remember that scores ARE NOT reset. To reset scores, press the reset button on the back of the micro:bit.
 
 ## Suggestions and Issues
 
