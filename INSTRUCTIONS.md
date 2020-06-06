@@ -15,12 +15,7 @@ Here are instructions on how to create your hit:bit. If you have a speaker/buzze
 
 1. Using glue, attach two pieces of foil onto each piece of carboard. These are your controllers. Write P1 on the first, and P2 on the other.
 2. Using  bluetooth, or a Type-B Mini-USB cable, download the hit:bit program onto your micro:bit.
-
-
-[https://bit.ly/mbhitbit/](https://bit.ly/mbhitbit)
-
-
-This can be done later, but I recommend doing it now, so that you don't have a lot of trouuble moving the micro:bit to connect it to your device.
+[https://bit.ly/mbhitbit/](https://bit.ly/mbhitbit) This can be done later, but I recommend doing it now, so that you don't have a lot of trouuble moving the micro:bit to connect it to your device.
 3. Get your first controller (P1) and two crocodile clips. Put one crocodile clip on the first foil piece, and the other end on P1 on the micro:bit. Then, put one end of the other crocodile clip on the second foil piece and the other end on GND.
 4. Repeat Step 3 with the second controller(P2) but put the first clip onto P2 on the micro:bit.
 5. Grab a partner, and move to the next section.
