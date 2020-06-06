@@ -22,11 +22,17 @@ function Play () {
     basic.clearScreen()
 }
 input.onButtonPressed(Button.A, function () {
-    basic.showString("P1-")
-    basic.showNumber(p1score)
-    basic.pause(500)
+    if (chooseround == true) {
+        rounds += 1
+        basic.showNumber(rounds)
+    } else if (chooseround == false) {
+        basic.showString("P1-")
+        basic.showNumber(p1score)
+        basic.pause(500)
+    }
 })
 input.onButtonPressed(Button.AB, function () {
+    chooseround = false
     for (let index = 0; index < rounds; index++) {
         Play()
     }
@@ -35,17 +41,26 @@ input.onButtonPressed(Button.AB, function () {
     basic.pause(500)
     basic.showString("P2-")
     basic.showNumber(p2score)
+    chooseround = true
 })
 input.onButtonPressed(Button.B, function () {
-    basic.showString("P2-")
-    basic.showNumber(p2score)
-    basic.pause(500)
+    if (chooseround == true) {
+        rounds += -1
+        basic.showNumber(rounds)
+    } else if (chooseround == false) {
+        basic.showString("P2-")
+        basic.showNumber(p2score)
+        basic.pause(500)
+    }
 })
 let p2score = 0
 let p1score = 0
 let game_started = false
 let rounds = 0
+let chooseround = false
+chooseround = true
 // Please select the amount of rounds you would like to play. There will be no breaks, so keep alert!
 // You can see the scores at the end of the game. If you wish to see them again, press A (Player 1) or B (Player 2) once they've finished scrolling across the screen.
 //         
 rounds = 5
+basic.showNumber(rounds)
